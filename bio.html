@@ -2,18 +2,59 @@
 <html>
     <head>
         <title>Student Bio</title>
+        <style>
+            header {
+                padding: 1px;
+                background-color: #333333;
+                text-align: center;
+                color: #EEEEEE;
+                margin: 0 auto;
+            }
+
+            #bioPic {
+                float: left;
+                padding-right: 20px;
+            }
+
+            .nameBio {
+                margin-left: 15px;
+                float: left;
+                width: 60%;
+
+            }
+
+            body {
+                font-family:Arial, Helvetica, sans-serif;
+                line-height: 150%;
+                margin: 0;
+                padding: 0;
+            }
+
+            .contactInfo {
+                float: left;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+
+            a {
+                color: red;
+            }
+
+            body {
+                background-color: #EFEEE7;
+            }
+
+        </style>
     </head>
     <body>
         <header>
             <h1>Student Bio</h1>
         </header>
 
-        <div>
-            <h2>Jaron Johnson</h2>
-        </div>
+        <div class="nameBio">
+            <h2><strong>Jaron Johnson</strong></h2>
         
-        <div>
-            <img src="CroppedJare.png" alt="Jare's pic">
+            <img id="bioPic" src="CroppedJare.png" alt="Jare's pic">
 
             <p>
                 Trust fund organic quinoa farm-to-table vaporware, meh 
@@ -29,7 +70,7 @@
             </p>
         </div>
 
-        <div>
+        <div class="contactInfo">
             <h2>Contact Info</h2>
 
             <ul>
